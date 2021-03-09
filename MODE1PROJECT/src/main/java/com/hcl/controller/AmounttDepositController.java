@@ -47,7 +47,7 @@ public class AmounttDepositController {
 			redirectAttributes.addFlashAttribute("message", "Failure occured during Amount Transfer!");
 		}
 		
-		return new ModelAndView("AmountDeposit", "message", "YOU  SUCCESSFULLY TRANSFERD!!");
+		return new ModelAndView("AmountDeposit", "message", "YOU  HAVE SUCCESSFULLY TRANSFERD!!");
 	}
 	
 	
